@@ -1,6 +1,6 @@
 # Project1-NewsNow
 
-NewsNow
+#NewsNow
 A Web application that you can use to see the most current news from all over the world via Google News, has live channel via YouTube, a search option for articles or news searches about anything, and provide a current weather information by entering zip code. #Overview of the Application
 
 Brings the news to the user.
@@ -17,10 +17,11 @@ The motivation for this app is to provide a faster and easier way for users to v
 
 You can access the app: https://jmarrano09.github.io/Project1-NewsNow/
 
-Technologies Used
+#Technologies Used
 HTML
 CSS, and Bootstrap
 JavaScript
+Media Queries
 jQuery
 AJAX
 Materialize

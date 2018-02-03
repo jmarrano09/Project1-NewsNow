@@ -15,12 +15,13 @@ A Web application that you can use to see the most current news from all over th
 You can access the app: https://jmarrano09.github.io/Project1-NewsNow/
 
 # Technologies Used
-HTML
-CSS, and Bootstrap
-JavaScript
-Media Queries
-jQuery
-AJAX
-Materialize
-Contributors
-Anna Tillack, Sharron Cooper, Jess Marrano, Gregory Mckenzie, and Caglar Panus.
+* HTML
+* CSS, and Bootstrap
+* JavaScript
+* Media Queries
+* jQuery
+* AJAX
+* Materialize
+
+# Contributors
+* Anna Tillack, Sharron Cooper, Jess Marrano, Gregory Mckenzie, and Caglar Panus.

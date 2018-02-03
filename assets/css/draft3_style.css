@@ -1,0 +1,138 @@
+/* ====================== Title section =================================*/
+
+#header {
+	text-align: center;
+	font-family:Impact;
+	background: #454545;
+}
+
+/* The title will be animated colorfully */
+
+/* ====================== Title section =================================*/
+
+.container {
+	width:100%;
+}
+
+img {
+	width:600px;
+	height:400px;	
+	margin-top:5px;
+}
+
+/*animates the title to change color*/
+
+.jumbotron h1 {
+	font-size:120px;
+	letter-spacing:.5;
+	line-height:1;
+	color:#e52d27;
+}
+
+
+
+
+/* ====================== BACKGROUND =================================*/
+
+body {
+	background: #181818;
+
+}
+
+/* ====================== table =================================*/
+
+table {
+	background: white;
+	border: none;
+
+}
+
+
+
+
+/* ====================== Video and Lyric Section =================================*/
+
+#newsJumbotron {
+	background: none;
+}
+
+iframe {
+	text-align: center;
+	padding: 10px;
+	
+
+}
+
+#buttons {
+	color:white;
+	font-size:16px;
+	letter-spacing:.5;
+	padding:10px;
+	overflow: scroll;
+}
+
+/* ====================== Recent Songs section =================================*/
+
+
+#relatedNews {
+	background-color: #454545;
+	width: 100%;
+	padding-right:50px;
+	padding-left:50px;
+}
+
+.panel-heading {
+	background: linear-gradient(-90deg, #84247b, #b50e67);
+	background-color: black;
+	text-align: center;
+}
+
+.panel-body {
+	background-color: white;
+	opacity: 0.5;
+}
+
+h2 {
+	color:white;
+	text-align: left;
+	padding: 10px;
+	color:#e52d27;
+}
+
+.container {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+p{
+	font-family: helvetica;
+}
+
+.gradientFont{
+	color: #e52d27;
+}
+
+form {
+	margin-bottom:60px;
+}
+
+label {
+	color:#e52d27;
+}
+
+#search-video {
+	cursor:text;
+}
+
+#search {
+	background: #e52d27;
+	border: none;
+	cursor:pointer;
+
+}
+
+#clear-results {
+	background: #e52d27;
+	color: white;
+	border:none;
+}

@@ -1,0 +1,144 @@
+/* ====================== Title section =================================*/
+
+#header {
+	text-align: center;
+	font-family:Impact;
+	background:white;
+}
+
+/* The title will be animated colorfully */
+
+/* ====================== Title section =================================*/
+
+.container {
+	width:100%;
+}
+
+img {
+	width:600px;
+	height:400px;	
+	margin-top:5px;
+}
+
+/*animates the title to change color*/
+
+.jumbotron h1 {
+	font-size:90px;
+	letter-spacing:.5;
+	line-height:1;
+}
+
+.awesome {
+
+	color:#313131;
+	animation: colorchange 20s infinite alternate;
+
+}
+
+@keyframes colorchange {
+	0% {
+		color: #df1bae;
+	}
+	10% {
+		color: #d60f67;
+	}
+	20%{
+		color:#9432b5;
+	}
+	30%{
+		color:#532176;
+	}
+	40%{
+		color:#11457d;
+	}
+	50%{
+		color:#69c1eb;
+	}
+	60% {
+		color:#1fbbde;
+	}
+	70%{
+		color:#20bfdc;
+	}
+	80%{
+		color:#9d2262;
+	}
+	90% {
+		color:#8e3a19;
+	}
+	100% {
+		color: #c55c27;
+	}
+}
+
+/* ====================== BACKGROUND =================================*/
+
+body {
+	background: linear-gradient(-90deg, rgba(89, 67, 137, .5), rgba(34, 201, 226, .5));
+
+}
+
+
+/* ====================== Video and Lyric Section =================================*/
+
+#video-and-lyrics {
+	background: none;
+}
+
+#video {
+	vertical-align: center;
+	text-align: center;
+	padding: 10px;
+	background: rgba(0, 0, 0, .5);
+
+}
+
+#lyrics {
+	color:white;
+	font-size:16px;
+	letter-spacing:.5;
+	padding:10px;
+	background: rgba(0, 0, 0, .5);
+}
+
+/* ====================== Recent Songs section =================================*/
+
+.panel-heading {
+	/*background: linear-gradient(-90deg, #84247b, #b50e67);*/
+	background-color: black;
+	text-align: center;
+}
+
+h2 {
+	color:white;
+}
+
+.container {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+p{
+	color: black;
+	font-family: helvetica;
+}
+
+form {
+	margin-bottom:60px;
+}
+
+#search-video {
+	cursor:text;
+}
+
+#add-button {
+	background: linear-gradient(-90deg, #84247b, #b50e67);
+	border: none;
+	cursor:pointer;
+}
+
+#clear-results {
+	background:linear-gradient(-90deg, #84247b, #b50e67);
+	color:white;
+	border:none;
+}

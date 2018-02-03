@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<title> Rough Draft</title>
+
+	<!--Bootstrap Link-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  	</script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<!--Css Link-->
+	<link rel="stylesheet" type="text/css"  href="assets/css/draft2_style.css">
+
+</head>
+<body>
+	<div class="jumbotron" id="header">
+		<h1 class="awesome">YouLYRICS</h1>
+    <p style="text-align: center;">Lyrics that Match with your Youtube Video</p>
+	</div>
+
+	<div class="container">
+
+		<div class="jumbotron row" id="video-and-lyrics"> 
+			<div class="col-md-6" alt="Youtube video will go here" id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uT3SBzmDxGk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6">
+				<p id="lyrics"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+  		
+		</div>
+
+		<!-- ******************* table for song info ********************* -->
+  <div class="container" id="recentSongs">
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color: black;">
+      <h2>Recent Songs</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table"> <!--  table  -->
+        <thead>
+          <tr>
+            <th scope="col">Song:</th>
+            <th scope="col">Artist:</th>
+            <th scope="col">Album:</th>
+            <th scope="col">Year:</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table> <!-- table  -->
+    </div>
+  </div>
+    <form id="main-form"> <!-- ******************* form ********************* -->
+      <div class="form-group">
+        <label for="pwd">Search:</label>
+        <input type="text" class="form-control" id="search-video" placeholder="search video" name="search-video">
+      </div>
+      
+      <!-- ******************* buttons ********************* -->
+      <button type="submit" class="btn btn-success" id="add-button"> Add</button>
+      <button id ="clear-results" type="submit" class="btn btn-default">Clear Results</button>
+    </form> <!-- ******************* end of form ********************* -->
+  </div>
+</body>
+</html>
+
+
+</body>
+</html>
